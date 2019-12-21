@@ -5,25 +5,31 @@
 
 }
 body {
-  background-image: url(https://asset.montecarlosbm.com/styles/hero_desktop_wide_responsive/s3/media/orphea/ccp_gambling_room_2018_0002_id111321_rsz.jpg.jpeg?itok=owXNuRIv);
+  background-image: url(https://asset.montecarlosbm.com/styles/hero_desktop_wide_responsive/s3/media/orphea/casino_de_monte_carlo_salle_europe_id111814_rsz.jpg.jpeg?itok=NXR3eelH);
   background-repeat: no-repeat;
   background-size: 164%;
   text-shadow: 2px 2px black;
-  color: yellow;
+  color: white;
+  text-align: center;
 }
 .display {
   opacity: 1;
-  display: block;
+  /* display: block; */
+  transition: 1s;
 }
 .hidden {
   opacity: 0;
-  display: none;
+  /* display: none; */
+  transition: 1s;
 }
 .text-white {
 }
 h1 {
-  text-align: center;
-  margin: 50px 0;
+  margin: 80px 0;
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
 }
 main {
   display: flex;
@@ -43,6 +49,13 @@ main {
 #tuo-numero,
 #numero-estratto {
   font-size: 50px;
+  background-color: red;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #tastiera {
 }
@@ -53,13 +66,15 @@ main {
   font-size: 50px;
   height: 120px;
   width: 120px;
-  background-color: lightblue;
-}
-#zero {
+  background-color: lightgreen;
 }
 .column button {
-  font-size: 60px;
+  font-size: 50px;
   padding: 20px 30px;
   border-radius: 8px;
   background-color: pink;
+  margin: 30px 0;
+}
+#congratulazioni {
+  font-size: 70px;
 }
