@@ -8,6 +8,55 @@
   <title>Lottery</title>
 </head>
 <body>
+  <header>
+    <h1 class="text-white">Gioca anche tu alla mia lotteria!</h1>
+  </header>
+  <main>
+    <div class="container column" id="left-column">
+      <h2 id="scegli">Scegli un numero dalla tastiera per iniziare a giocare!!</h2>
+      <h2 id="num-che-hai-scelto" class="hidden"> Il numero che hai scelto è:</h2>
+      <h2 id="tuo-numero" class="hidden">5</h2>
+      <button id="annulla" class="hidden" type="button" name="button">ANNULLA</button>
+
+    </div>
+    <div class="container" id="tastiera">
+      <button type="button" name="button" class=number>
+        7
+      </button>
+      <button type="button" name="button" class=number>
+        8
+      </button>
+      <button type="button" name="button" class=number>
+        9
+      </button>
+      <button type="button" name="button" class=number>
+        4
+      </button>
+      <button type="button" name="button" class=number>
+        5
+      </button>
+      <button type="button" name="button" class=number>
+        6
+      </button>
+      <button type="button" name="button" class=number>
+        1
+      </button>
+      <button type="button" name="button" class=number>
+        2
+      </button>
+      <button type="button" name="button" class=number>
+        3
+      </button>
+      <button id="zero" type="button" name="button" class=number>
+        0
+      </button>
+    </div>
+    <div class="container column" id="right-column">
+      <button id="gioca" class="hidden" type="button" name="button">GIOCA</button>
+      <h2 id="il-numero-estratto-e" class="hidden">Il numero estratto è:</h2>
+      <h2 id="numero-estratto" class="hidden">8</h2>
+    </div>
+  </main>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
